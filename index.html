@@ -625,7 +625,7 @@ footer .heart{color:#e0517a;}
   trackedButtons.forEach(function(btn){
     btn.addEventListener("click", function(){
       if(typeof fbq === "function"){
-        fbq("track", "Lead", { content_name: btn.getAttribute("data-pixel-track") });
+        fbq("track", "Subscribe", { content_name: btn.getAttribute("data-pixel-track") });
       }
     });
   });
